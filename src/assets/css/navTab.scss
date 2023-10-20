@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+
+    &.disabled {
+        color: #6c757d;
+        pointer-events: none;
+        cursor: default;
+    }
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+
+    &:hover,
+    &:focus {
+        border-color: #e9ecef #e9ecef #dee2e6;
+    }
+}

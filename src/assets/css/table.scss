@@ -1,0 +1,128 @@
+$color_1: #6C757D;
+$color_2: #fff;
+$background-color_1: rgba(0, 0, 0, 0.075);
+$background-color_2: #343a40;
+$border-color_1: #454d55;
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: $color_1;
+
+    th {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+    }
+
+    td {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+    }
+
+    thead {
+        th {
+            vertical-align: bottom;
+            border-bottom: 2px solid #dee2e6;
+        }
+    }
+
+    tbody+tbody {
+        border-top: 2px solid #dee2e6;
+    }
+
+    .thead-dark {
+        th {
+            color: $color_2;
+            background-color: $background-color_2;
+            border-color: $border-color_1;
+        }
+    }
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+
+    th {
+        border: 1px solid #dee2e6;
+    }
+
+    td {
+        border: 1px solid #dee2e6;
+    }
+}
+
+.table-hover {
+    tbody {
+        tr {
+            &:hover {
+                color: $color_1;
+                background-color: $background-color_1;
+            }
+        }
+    }
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    >.table-bordered {
+        border: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .table-responsive-sm {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+
+        >.table-bordered {
+            border: 0;
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .table-responsive-md {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+
+        >.table-bordered {
+            border: 0;
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .table-responsive-lg {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+
+        >.table-bordered {
+            border: 0;
+        }
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .table-responsive-xl {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+
+        >.table-bordered {
+            border: 0;
+        }
+    }
+}

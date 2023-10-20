@@ -1,0 +1,163 @@
+.side-bar-border{
+    border-top: 1px solid #FFD333;
+    border-right: 1px solid #FFD333;
+    border-left: 1px solid #FFD333;
+}
+.side-bar-content-border {
+    border-bottom: 1px solid #FFD333;
+}
+.docboard-bg {
+    background-color: #F3F5F8;
+}
+
+.docboard-bg-primary {
+    background-color: #2B4883;
+}
+
+.docboard-bg-soft {
+    background-color: #EBF1FE !important;
+}
+
+.docboard-bg-secondary {
+    background-color: #143475;
+}
+
+.docboard-bg-gray {
+    background-color: #D8D8D8;
+}
+
+.docboard-bg-gray-two {
+    background-color: #DCE1EA;
+}
+
+.docboard-bg-blue {
+    background-color: #5887F2;
+}
+.docboard-heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.docboard-color-primary {
+    color: #2B4883;
+}
+
+.docboard-avater {
+    height: 180px;
+    width: 180px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.docboard-avater-sm {
+    height: 60px;
+    width: 60px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.custom-input-file {
+    cursor: pointer;
+    background-color: #FFD333;
+    color: #343a40;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.custom-input-file:hover {
+    color: white;
+    background-color: #343a40;
+    border: 1px solid #FFD333;
+}
+
+.sidebar-content-color{
+    color: #343a40;
+}
+
+@media (max-width: 420px) {
+    .docboard-heading {
+        font-size: 18px;
+    }
+
+    .docboard-search-input {
+        display: none;
+    }
+
+    .patients-card-top h4,
+    .patients-card-info h6,
+    .patients-card-info p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+    .docboard-heading {
+        font-size: 20px;
+    }
+
+    .docboard-search-input {
+        display: none;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .docboard-heading {
+        font-size: 20px;
+    }
+
+    .docboard-search-input {
+        display: none;
+    }
+
+    .patients-card {
+        padding: 10px;
+    }
+
+    .patients-card-top img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .patients-card-top h4 {
+        font-size: 14px;
+    }
+
+    .patients-card-info h6,
+    .patients-card-info p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .our-benefits img {
+        width: 540px !important;
+        height: 360px !important;
+        -o-object-fit: cover !important;
+        object-fit: cover !important;
+    }
+
+    .docboard-heading {
+        font-size: 22px;
+    }
+
+    .docboard-search-input {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .docboard-heading {
+        line-height: 26px;
+    }
+
+    .consultency-card-start {
+        padding: 10px;
+    }
+
+    .consultency-card-start img {
+        width: 25px;
+    }
+}

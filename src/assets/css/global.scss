@@ -1,0 +1,193 @@
+$color_1: #2B4883;
+$color_2: #343a40;
+$color_3: white;
+$background-color_1: #F3F5F8;
+$background-color_2: #2B4883;
+$background-color_3: #EBF1FE;
+$background-color_4: #143475;
+$background-color_5: #D8D8D8;
+$background-color_6: #DCE1EA;
+$background-color_7: #5887F2;
+$background-color_8: #FFD333;
+$background-color_9: #343a40;
+
+.side-bar-border {
+    border-top: 1px solid #FFD333;
+    border-right: 1px solid #FFD333;
+    border-left: 1px solid #FFD333;
+}
+
+.side-bar-content-border {
+    border-bottom: 1px solid #FFD333;
+}
+
+.docboard-bg {
+    background-color: $background-color_1;
+}
+
+.docboard-bg-primary {
+    background-color: $background-color_2;
+}
+
+.docboard-bg-soft {
+    background-color: $background-color_3 !important;
+}
+
+.docboard-bg-secondary {
+    background-color: $background-color_4;
+}
+
+.docboard-bg-gray {
+    background-color: $background-color_5;
+}
+
+.docboard-bg-gray-two {
+    background-color: $background-color_6;
+}
+
+.docboard-bg-blue {
+    background-color: $background-color_7;
+}
+
+.docboard-heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.docboard-color-primary {
+    color: $color_1;
+}
+
+.docboard-avater {
+    height: 180px;
+    width: 180px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.docboard-avater-sm {
+    height: 60px;
+    width: 60px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.custom-input-file {
+    cursor: pointer;
+    background-color: $background-color_8;
+    color: $color_2;
+    font-size: 16px;
+    font-weight: 500;
+
+    &:hover {
+        color: $color_3;
+        background-color: $background-color_9;
+        border: 1px solid #FFD333;
+    }
+}
+
+.sidebar-content-color {
+    color: $color_2;
+}
+
+@media (max-width: 420px) {
+    .docboard-heading {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .docboard-search-input {
+        display: none;
+    }
+
+    .patients-card-top {
+        h4 {
+            font-size: 14px;
+        }
+    }
+
+    .patients-card-info {
+        h6 {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .consultency-card-start {
+        padding: 10px;
+
+        img {
+            width: 25px;
+        }
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+    .docboard-heading {
+        font-size: 20px;
+    }
+
+    .docboard-search-input {
+        display: none;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .docboard-heading {
+        font-size: 20px;
+    }
+
+    .docboard-search-input {
+        display: none;
+    }
+
+    .patients-card {
+        padding: 10px;
+    }
+
+    .patients-card-top {
+        img {
+            height: 50px;
+            width: 50px;
+        }
+
+        h4 {
+            font-size: 14px;
+        }
+    }
+
+    .patients-card-info {
+        h6 {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .our-benefits {
+        img {
+            width: 540px !important;
+            height: 360px !important;
+            -o-object-fit: cover !important;
+            object-fit: cover !important;
+        }
+    }
+
+    .docboard-heading {
+        font-size: 22px;
+    }
+
+    .docboard-search-input {
+        display: none;
+    }
+}
